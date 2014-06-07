@@ -78,7 +78,7 @@ public class GetBlogPostTask extends AsyncTask<Object, Void, JSONObject> {
 	protected void onPostExecute(JSONObject result) {
 		MainActivity mainC = new MainActivity();
 			mBlogData = result;
-			mainC.updateList();
+			mainC.handleBlogResponse();
 		
 		
 	}

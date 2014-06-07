@@ -4,7 +4,7 @@
     <string name="app_name">Blog Reader</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
+
     <string-array name="stringArray">
         <item>Android</item>
         <item>IOOS</item>
@@ -13,5 +13,10 @@
         <item>JAVA</item>
         <item>C++</item>
     </string-array>
+
+    <string name="error_title">Opss Sorry!</string>
+    <string name="error_message">Something Went Wrong!</string>
+    <string name="no_text">No text availlable as of now</string>
+    <string name="title_activity_blog_web_view">Blog Post</string>
 
 </resources>
