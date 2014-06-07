@@ -18,5 +18,7 @@
     <string name="error_message">Something Went Wrong!</string>
     <string name="no_text">No text availlable as of now</string>
     <string name="title_activity_blog_web_view">Blog Post</string>
+    <string name="action_share">Share</string>
+    <string name="share_your_choice">How do you want to share?</string>
 
 </resources>

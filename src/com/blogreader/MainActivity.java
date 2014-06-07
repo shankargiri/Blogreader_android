@@ -68,7 +68,10 @@ public class MainActivity extends ListActivity {
 			JSONArray jsonPosts = mBlogData.getJSONArray("posts");
 			JSONObject jsonPost = jsonPosts.getJSONObject(position);
 			String blogURL = jsonPost.getString("url");
-			Intent intent = new Intent(Intent.ACTION_VIEW);
+			//opening in new action in webview
+			Intent intent = new Intent(this, BlogWebView.class);
+			//this is for opening in new web
+//			Intent intent = new Intent(Intent.ACTION_VIEW);
 			//parsing sting blogURL to Uri..
 			intent.setData(Uri.parse(blogURL));
 			startActivity(intent);
